@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>HTML Project 4 - Changing colors</title>
+    <script src="https://kit.fontawesome.com/4b554bb1b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+	<div id="scratch"></div>
+	<script
+    src="https://code.jquery.com/jquery-2.2.4.js"
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+    <script src="wScratchPad.min.js"></script>
+    <script type="text/javascript">
+    	$('#scratch').wScratchPad({
+         size        : 100,          // The size of the brush/scratch.
+         bg          : 'img.jpg',  // Background (image path or hex color).
+         fg          : '#000'
+        });
+    </script>
+</html>
